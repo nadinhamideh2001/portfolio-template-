@@ -3,22 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marte Not Found — Proyecto</title>
-    <link rel="stylesheet" href="../assets/css/otros.css" />
-    <script src="../assets/js/main.js" defer></script>
+    <title>404 — Señal perdida</title>
+    <link rel="stylesheet" href="./assets/css/otros.css" />
+    <script src="./assets/js/main.js" defer></script>
   </head>
+
   <body>
+    <!-- NAV -->
     <header class="top-nav">
       <a class="top-nav-left" href="./index.html" aria-label="Ir al inicio"
         >NADIN</a
       >
-
       <div class="top-nav-center">DISEÑADORA GRÁFICA · 2025</div>
-      <nav class="top-nav-right top-nav-right--desktop">
-        <a href="../gallery.html">Proyectos</a>
-        <a href="../about.html">Sobre mí</a>
-        <a href="../contact.html">Contáctame</a>
+      <nav class="top-nav-right top-nav-right--desktop" aria-label="Navegación">
+        <a href="./gallery.html">Proyectos</a>
+        <a href="./about.html">Sobre mí</a>
+        <a href="./contact.html">Contáctame</a>
       </nav>
+
       <button
         class="hamburger"
         type="button"
@@ -29,89 +31,85 @@
       </button>
     </header>
 
+    <!-- Mobile menu -->
     <div class="mobile-menu hidden" aria-hidden="true">
       <div class="mobile-menu-overlay" tabindex="-1"></div>
       <div class="mobile-menu-panel" role="dialog" aria-modal="true">
         <button class="mobile-menu-close" type="button" aria-label="Cerrar">
           ×
         </button>
-        <nav class="mobile-menu-links">
-          <a href="../gallery.html">Proyectos</a>
-          <a href="../about.html">Sobre mí</a>
-          <a href="../contact.html">Contáctame</a>
+        <nav class="mobile-menu-links" aria-label="Navegación móvil">
+          <a href="./gallery.html">Proyectos</a>
+          <a href="./about.html">Sobre mí</a>
+          <a href="./contact.html">Contáctame</a>
         </nav>
       </div>
     </div>
 
     <main class="section section--paper">
       <div class="container">
-        <div class="project-hero">
-          <div class="kicker">PROJECT</div>
-          <h1 class="h-serif">Marte Not Found — 404</h1>
-          <p>
-            Página 404 inspirada en un viaje espacial que nunca llega.
-            Tipografía condensada, movimiento y composición que “congela” el
-            error.
-          </p>
-        </div>
+        <section class="nf">
+          <div class="nf-left">
+            <div class="kicker">ERROR</div>
 
-        <div class="project-top-images">
-          <div class="proj-img">
-            <img
-              class="scroll-focus"
-              src="https://picsum.photos/1400/1000?random=2701"
-              alt="Marte 1"
-              loading="lazy"
-            />
-          </div>
-          <div class="proj-img">
-            <img
-              class="scroll-focus"
-              src="https://picsum.photos/1400/1000?random=2702"
-              alt="Marte 2"
-              loading="lazy"
-            />
-          </div>
-        </div>
+            <h1 class="nf-title h-serif">
+              404
+              <span class="nf-title-sub">señal perdida</span>
+            </h1>
 
-        <div class="project-split">
-          <div class="project-text">
-            <h2>Concepto</h2>
-            <p>
-              La UI se siente editorial: espacios grandes y jerarquía clara. La
-              narrativa convierte un error en una escena con intención.
+            <p class="nf-copy">
+              Estás buscando una página que no existe (o se fue a otra órbita).
+              <br />
+              Te dejo un atajo para volver al recorrido.
             </p>
-            <p>Diseñado para ser rápido, claro y memorable.</p>
-          </div>
-          <div class="proj-img">
-            <img
-              class="scroll-focus"
-              src="https://picsum.photos/1400/1000?random=2703"
-              alt="Marte 3"
-              loading="lazy"
-            />
-          </div>
-        </div>
 
-        <div class="project-bottom-images">
-          <div class="proj-img">
-            <img
-              class="scroll-focus"
-              src="https://picsum.photos/1400/1000?random=2704"
-              alt="Marte 4"
-              loading="lazy"
-            />
+            <div class="nf-actions">
+              <a class="btn" href="./gallery.html">Ir a Proyectos →</a>
+              <a class="btn btn--ghost" href="./index.html">Volver al inicio</a>
+            </div>
+
+            <div class="nf-meta" aria-label="Detalle técnico">
+              <div><span>Código</span>404 / Not Found</div>
+
+              <div>
+                <span>Coordenadas</span><code>LAT 40.4168 · LON -3.7038</code>
+              </div>
+            </div>
           </div>
-          <div class="proj-img">
-            <img
-              class="scroll-focus"
-              src="https://picsum.photos/1400/1000?random=2705"
-              alt="Marte 5"
-              loading="lazy"
-            />
+
+          <div class="nf-right" aria-hidden="true">
+            <div class="nf-card">
+              <div class="nf-card-top">
+                <div class="nf-dot"></div>
+                <div class="nf-dot"></div>
+                <div class="nf-dot"></div>
+              </div>
+
+              <div class="nf-screen">
+                <div class="nf-scan"></div>
+                <div class="nf-lines">
+                  <span>Intentando reconectar…</span>
+                  <span>Buscando señal…</span>
+                  <span>— — — — — —</span>
+                  <span>Sin resultados.</span>
+                </div>
+
+                <div class="nf-big">NOT FOUND</div>
+              </div>
+            </div>
+
+            <p class="nf-note">
+              Tip: presioná <b>ESC</b> si abriste el menú móvil.
+            </p>
           </div>
-        </div>
+        </section>
       </div>
+
+      <script>
+        // muestra la ruta real en 404 (queda lindo y “pro”)
+        const el = document.getElementById("nf-path");
+        if (el) el.textContent = window.location.pathname || "/";
+      </script>
     </main>
   </body>
 </html>
