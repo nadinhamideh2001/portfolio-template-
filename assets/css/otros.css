@@ -1,6 +1,6 @@
 :root {
   /* ===== Paleta ===== */
-  --bg: #f5f1e9; /* crema */
+  --bg: rgb(255, 255, 255); /* crema */
   --paper: #fbf8f2; /* paper */
   --ink: #1c1a18; /* tinta */
   --muted: #6f6a63; /* gris cálido */
@@ -84,7 +84,7 @@ p {
   font-weight: 700;
 }
 
-/* Antes era serif; ahora mantiene estilo pero en Arial */
+/* Arial */
 .h-serif {
   font-family: var(--font);
   font-weight: 700;
@@ -601,8 +601,6 @@ body.modal-open {
 
 /* =========================
    CONTACT (ÚNICA VERSIÓN)
-   OJO: en contact.html pon <body class="contact-page"> si quieres
-   que agarre estos estilos sí o sí.
 ========================= */
 
 .contact-page .container {
@@ -935,7 +933,7 @@ body.modal-open {
 }
 
 /* =========================
-   404 — NOT FOUND (CREATIVO)
+   404 — NOT FOUND 
 ========================= */
 
 .nf {
