@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nadin — Sobre mí</title>
+    <link rel="stylesheet" href="./assets/css/otros.css" />
+    <script src="./assets/js/main.js" defer></script>
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <header class="top-nav">
+      <a class="top-nav-left" href="./index.html" aria-label="Ir al inicio"
+        >NADIN</a
+      >
+
+      <div class="top-nav-center">DISEÑADORA GRÁFICA · 2025</div>
+
+      <nav class="top-nav-right top-nav-right--desktop" aria-label="Navegación">
+        <a href="./gallery.html">Proyectos</a>
+        <a href="./about.html">Sobre mí</a>
+        <a href="./contact.html">Contáctame</a>
+      </nav>
+
+      <button
+        class="hamburger"
+        type="button"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+      >
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu hidden" aria-hidden="true">
+      <div class="mobile-menu-overlay" tabindex="-1"></div>
+      <div class="mobile-menu-panel" role="dialog" aria-modal="true">
+        <button class="mobile-menu-close" type="button" aria-label="Cerrar">
+          ×
+        </button>
+        <nav class="mobile-menu-links" aria-label="Navegación móvil">
+          <a href="./gallery.html">Proyectos</a>
+          <a href="./about.html">Sobre mí</a>
+          <a href="./contact.html">Contáctame</a>
+        </nav>
+      </div>
+    </div>
+
+    <main class="section about-hover">
+      <div class="about-grid">
+        <div class="about-photo">
+          <!-- cambia por tus imágenes -->
+          <img
+            class="bg"
+            src="https://picsum.photos/1200/1400?random=501"
+            alt="Retrato blur"
+            loading="lazy"
+          />
+          <div class="fg">
+            <img
+              src="https://picsum.photos/1200/1400?random=501"
+              alt="Retrato"
+              loading="lazy"
+            />
+          </div>
+        </div>
+
+        <div class="about-copy">
+          <div class="kicker">ABOUT</div>
+          <h1 class="about-title h-serif">Nadin — Diseñadora gráfica</h1>
+
+          <div class="meta">
+            <div><span>Rol</span>Branding & Dirección de arte</div>
+            <div><span>Ubicación</span>Madrid · Lima</div>
+            <div><span>Enfoque</span>Branding, editorial, web y narrativas</div>
+          </div>
+
+          <div class="about-body">
+            <p>
+              Me gusta trabajar con una base editorial muy limpia, pero siempre
+              con un punto emocional: color, textura y composición que se siente
+              honesta para la marca.
+            </p>
+            <p>
+              Busco proyectos donde el diseño no solo se vea bien, sino que
+              tenga intención y construya un mundo coherente.
+            </p>
+          </div>
+
+          <!-- SKILLS -->
+          <div class="skills" aria-label="Skills Adobe">
+            <div class="skill" data-value="92">
+              <div class="skill-top">
+                <span class="skill-name">Adobe Illustrator</span>
+                <span class="skill-value">92%</span>
+              </div>
+              <div class="skill-bar"><span class="skill-fill"></span></div>
+            </div>
+
+            <div class="skill" data-value="88">
+              <div class="skill-top">
+                <span class="skill-name">Adobe Photoshop</span>
+                <span class="skill-value">88%</span>
+              </div>
+              <div class="skill-bar"><span class="skill-fill"></span></div>
+            </div>
+
+            <div class="skill" data-value="84">
+              <div class="skill-top">
+                <span class="skill-name">Adobe InDesign</span>
+                <span class="skill-value">84%</span>
+              </div>
+              <div class="skill-bar"><span class="skill-fill"></span></div>
+            </div>
+
+            <div class="skill" data-value="76">
+              <div class="skill-top">
+                <span class="skill-name">After Effects</span>
+                <span class="skill-value">76%</span>
+              </div>
+              <div class="skill-bar"><span class="skill-fill"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
