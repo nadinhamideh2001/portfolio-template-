@@ -7,7 +7,7 @@ Aqui puedes encontrar mi sitio en vivo:[https://nadinhamideh2001.github.io/portf
 Portfolio web personal enfocado en **branding y dirección de arte**.  
 Proyecto final del curso **Web Foundations (UDIT)**.
 
-El sitio está desarrollado como **web estática**, con una landing principal, galería de proyectos, páginas individuales de proyecto, sección About y Contacto.
+El sitio está desarrollado como **web estática**, con una landing principal, galería de proyectos, páginas individuales de proyecto, sección About y Contacto, y un eror 404.
 
 ## Objetivo del proyecto
 
